@@ -35,7 +35,7 @@
       }
     }
 
-    * { box-sizing: border-box; }
+- { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -114,6 +114,9 @@
       overflow: hidden;
       background: #000;
     }
+    .video-contenedor + .video-contenedor {
+      margin-top: 1.5rem;
+    }
     .video-contenedor iframe {
       position: absolute;
       inset: 0;
@@ -167,16 +170,24 @@
         <!-- PASO 4: GALERÍA ============================= INICIO -->
 <div class="galeria">
   <figure>
-    <img src="img/galeria1.png" alt="DESCRIBE LA IMAGEN 1">
+    <img src="img/galeria1.png" alt="Una estudiante haciendo una pausa tranquila con una taza junto a la ventana de la biblioteca">
     <figcaption>Una estudiante haciendo una pausa tranquila con una taza junto a la ventana de la biblioteca; simboliza el autocuidado, la calma y la fortaleza personal. Imagen generada con Gemini (IA).</figcaption>
   </figure>
   <figure>
-    <img src="img/galeria2.png" alt="DESCRIBE LA IMAGEN 2">
+    <img src="img/galeria2.png" alt="Una trabajadora social y un estudiante planificando juntos en una mesa redonda">
     <figcaption>Una trabajadora social y un estudiante planificando juntos en una mesa redonda; muestra una intervención horizontal que respeta la autonomía de la persona. Imagen generada con Gemini (IA).</figcaption>
   </figure>
   <figure>
-    <img src="img/galeria3.png" alt="DESCRIBE LA IMAGEN 3">
+    <img src="img/galeria3.png" alt="Dos estudiantes conversando con cercanía y naturalidad en el patio de la facultad">
     <figcaption>Dos estudiantes conversando con cercanía y naturalidad en el patio de la facultad; refleja la escucha activa y el apoyo entre iguales sin dramatismo. Imagen generada con Gemini (IA).</figcaption>
+  </figure>
+  <figure>
+    <img src="img/galeria4.png" alt="Dos estudiantes colaborando de manera constructiva en una oficina universitaria luminosa">
+    <figcaption>Dos estudiantes colaborando de manera constructiva y horizontal en una oficina universitaria luminosa; muestra la confianza y el apoyo académico positivo. Imagen generada con Gemini (IA).</figcaption>
+  </figure>
+  <figure>
+    <img src="img/galeria5.png" alt="Un grupo diverso de tres estudiantes charlando animadamente y riendo en una mesa al aire libre en el patio de la universidad">
+    <figcaption>Un grupo diverso de tres estudiantes charlando animadamente y riendo en una mesa al aire libre en el patio de la universidad; refleja integración social y apoyo colectivo. Imagen generada con Gemini (IA).</figcaption>
   </figure>
 </div>
         <!-- PASO 4: GALERÍA ================================ FIN -->
@@ -192,6 +203,11 @@
 <div class="video-contenedor">
   <iframe src="https://drive.google.com/file/d/1CYpf5fWJA8BqQEpzh0mv6fDrYzjFIkcS_kiOTN6Cw5U/preview"
           title="Vídeo de presentación del proyecto"
+          allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+<div class="video-contenedor">
+  <iframe src="https://drive.google.com/file/d/TU_ID_DEL_SEGUNDO_VIDEO/preview"
+          title="Segundo vídeo del proyecto"
           allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
         <!-- PASO 6: VÍDEO ================================== FIN -->
